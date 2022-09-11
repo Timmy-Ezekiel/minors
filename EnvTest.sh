@@ -4,7 +4,7 @@
 echo "====>Welcome<===="
 
 #This check the username and prints to the user.
-echo -e "You are current login name is $(echo $USER | tr 'a-z' 'A-Z')\n"
+echo -e "Your are current login name is $(echo $USER | tr 'a-z' 'A-Z')\n"
 
 #Let check the operating system information
 echo "====>Operating system Info.<===="
