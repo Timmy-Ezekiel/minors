@@ -4,7 +4,7 @@
   * myRectangle - This function create a rectangle
   *
   * @height : This is an interger parameter for the rectangle height.
-  * @width: this is an integer paramet for the rectangle width.
+  * @width: this is an integer parameter for the rectangle width.
   *
  **/
 
