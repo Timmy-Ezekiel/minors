@@ -33,7 +33,7 @@ void calculateAverage(void)
 	{
 		for (i = 0; i < totalNumbers; i++)
 		{
-			printf("No%d > ", i + 1);
+			printf("No%d >>> ", i + 1);
 			scanf("%f", &numbersRead);
 			total += numbersRead;
 		}
@@ -45,5 +45,7 @@ void calculateAverage(void)
 	else
 	{
 		printf("More than the specified intake amount, please try again\n");
+		calculateAverage();
 	}
+	
 }
