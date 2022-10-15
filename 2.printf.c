@@ -37,8 +37,10 @@ int _printf(const char *format, ...)
 				longString = va_arg(list, char *);
 				strlen = _strlength(longString);
 				total += strlen;
-				write(1, longString, sizeof(longString));
+				write(1, longString, (strlen));
 				break;
+				default:
+				write(2, "Unknown Specifier in _Printf\n", 29);
 			}
 			x++;
 			continue;
